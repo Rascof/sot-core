@@ -24,10 +24,11 @@
   <build_export_depend>dynamic-graph-python</build_export_depend>
   <build_export_depend>pinocchio</build_export_depend>
 
-
+  <exec_depend condition="$ROS_VERSION == 1">catkin</exec_depend>
+  <exec_depend condition="$ROS_VERSION == 2">ament_cmake</exec_depend>
   <exec_depend>dynamic-graph-python</exec_depend>
   <exec_depend>pinocchio</exec_depend>
-  <exec_depend>example-robot-data</exec_depend>
+  <exec_depend condition="$ROS_VERSION != 1">example-robot-data</exec_depend>
 
   <test_depend>gtest</test_depend>
 
