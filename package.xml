@@ -1,4 +1,5 @@
-<package format="2">
+<?xml version="1.0"?>
+<package format="3">
   <name>sot-core</name>
   <version>4.9.1</version>
   <description>
