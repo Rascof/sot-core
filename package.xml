@@ -20,6 +20,7 @@
   <depend>roscpp</depend>
   <depend>dynamic-graph-python</depend>
   <depend>pinocchio</depend>
+  <build_depend>doxygen</build_depend>
   
   <exec_depend condition="$ROS_VERSION == 1">catkin</exec_depend>
   <exec_depend condition="$ROS_VERSION == 2">ament_cmake</exec_depend>
