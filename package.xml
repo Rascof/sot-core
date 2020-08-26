@@ -24,8 +24,6 @@
   <exec_depend condition="$ROS_VERSION == 1">catkin</exec_depend>
   <exec_depend condition="$ROS_VERSION == 2">ament_cmake</exec_depend>
   <exec_depend>example-robot-data</exec_depend>
-  
-  <test_depend>gtest</test_depend>
 
   <doc_depend>doxygen</doc_depend>
   <doc_depend>dynamic-graph</doc_depend>
