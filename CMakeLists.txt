@@ -27,7 +27,6 @@ SET(DOXYGEN_USE_TEMPLATE_CSS YES)
 INCLUDE(cmake/base.cmake)
 INCLUDE(cmake/boost.cmake)
 INCLUDE(cmake/python.cmake)
-INCLUDE(cmake/sphinx.cmake)
 
 # Project definition
 COMPUTE_PROJECT_ARGS(PROJECT_ARGS LANGUAGES CXX)
