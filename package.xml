@@ -15,8 +15,6 @@
   <author>Olivier Stasse</author>
   <author email="ostasse@laas.fr">ostasse@laas.fr</author>
 
-  <build_depend version_gte="1.1" version_lt="2.0">genmsg</build_depend>
-
   <depend>dynamic-graph</depend>
   <depend>dynamic-graph-python</depend>
   <depend>pinocchio</depend>
